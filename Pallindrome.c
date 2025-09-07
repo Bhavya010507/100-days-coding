@@ -4,7 +4,7 @@ int num, reversed = 0, remainder, original;
 printf("Enter an integer: ");
 scanf("%d", &num);
 original = num; 
-while (num != 0) {
+while (num>0) {
         remainder = num % 10;
         reversed = reversed * 10 + remainder; 
         num /= 10; 
@@ -16,4 +16,5 @@ while (num != 0) {
     }
 
     return 0;
+
 }
