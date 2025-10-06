@@ -14,4 +14,5 @@ int main()
      printf("Simple Interest: %.2f\n", SI);
     printf("Compound Interest: %.2f\n", CI);
 return 0;
+
 }
