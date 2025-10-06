@@ -42,10 +42,8 @@ void displayMenu() {
 }
 int main() {
     int choice;
-    do {
         displayMenu();
         scanf("%d", &choice);
-
         switch (choice) {
             case 1:
                 checkBalance();
@@ -62,7 +60,6 @@ int main() {
             default:
                 printf("Invalid choice. Please try again.\n");
         }
-    } while (choice != 4);
+return 0;
 
-    return 0;
 }
