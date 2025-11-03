@@ -27,4 +27,5 @@ int main() {
     printf("Zero elements: %d\n", zero_count);
 
     return 0;
+
 }
